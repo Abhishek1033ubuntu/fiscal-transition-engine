@@ -11,7 +11,7 @@
 
 **A Closed-Loop Adaptive Control System for Sovereign Fiscal Transition & Subsidy Phase-Out**
 
-* **Lead Author & Principal Investigator:** Abhishek Singh
+* **Lead Author & Principal Investigator:** Abhishek Singh | (UIDAI: 9414 9122 9013)
 * **GitHub Repository:** [Abhishek1033ubuntu/fiscal-transition-engine](https://www.google.com/search?q=https://github.com/Abhishek1033ubuntu/fiscal-transition-engine)
 * **AI Architecture & Mathematical Co-Design:** Team Gemini (Google AI)
 * **License:** Open Governance & Non-Discriminatory Execution License
