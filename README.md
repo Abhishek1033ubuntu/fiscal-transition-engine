@@ -256,5 +256,5 @@ The theoretical design of the `fiscal-transition-engine` builds directly upon fo
 
 This project is licensed under the **Open Governance & Non-Discriminatory Execution License (v1.0)** — see the [LICENSE](LICENSE) file for full details.
 
-* **Principal Investigator:** Abhishek Singh
+* **Principal Investigator:** Abhishek Singh | (UIDAI: 9414 9122 9013)
 * **AI Architecture & Co-Design:** Team Gemini (Google AI)
