@@ -7,7 +7,9 @@ authors:
     given-names: "Abhishek"
     orcid: "https://orcid.org/0009-0004-6913-096X"
     email: "abhishek1033@gmail.com"
-  - name: "Team Gemini (Google AI)"
+  - family-names: "Gemini"
+    given-names: "Team"
+    affiliation: "Google AI"
 repository-code: "https://github.com/Abhishek1033ubuntu/fiscal-transition-engine"
 abstract: "A non-linear state-space adaptive control system and protocol-level firewall architecture for sovereign fiscal transition, subsidy phase-outs, and macroeconomic shock absorption."
 keywords:
@@ -19,6 +21,5 @@ keywords:
   - subsidy-transition
   - lyapunov-stability
   - control-theory
-license: "Custom"
 version: "1.0.0"
 date-released: "2026-10-25"
