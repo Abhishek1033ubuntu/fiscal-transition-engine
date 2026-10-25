@@ -155,15 +155,21 @@ $$\frac{\partial \dot{D}}{\partial \alpha} = -\gamma \cdot D_0 \cdot \epsilon_d 
 
 To prove that the closed-loop non-linear system remains bounded under arbitrary bounded exogenous shocks $|\xi(t)| \le \xi_{\text{max}}$, construct a Candidate Lyapunov Function $V_{\text{Lyg}}(\mathbf{z})$:
 
-$$V_{\text{Lyg}}(\mathbf{z}) = \frac{1}{2} e_D^2 + \frac{1}{2} e_F^2 + \frac{1}{2\beta_1} (\lambda - \lambda^{*})^2 + \frac{1}{2\beta_2} (\alpha - \alpha^{*})^2$$
+$$
+V_{\text{Lyg}}(\mathbf{z}) = \frac{1}{2} e_D^2 + \frac{1}{2} e_F^2 + \frac{1}{2\beta_1} (\lambda - \lambda^{\star})^2 + \frac{1}{2\beta_2} (\alpha - \alpha^{\star})^2
+$$
 
 Taking the time derivative along system trajectories:
 
-$$\dot{V}_{\text{Lyg}} = e_D \dot{e}_D + e_F \dot{e}_F + \frac{1}{\beta_1} (\lambda - \lambda^{*}) \dot{\lambda} + \frac{1}{\beta_2} (\alpha - \alpha^{*}) \dot{\alpha}$$
+$$
+\dot{V}_{\text{Lyg}} = e_D \dot{e}_D + e_F \dot{e}_F + \frac{1}{\beta_1} (\lambda - \lambda^{\star}) \dot{\lambda} + \frac{1}{\beta_2} (\alpha - \alpha^{\star}) \dot{\alpha}
+$$
 
 Substituting adaptation laws and completing the square yields:
 
-$$\dot{V}_{\text{Lyg}} \le -c_1 e_D^2 - c_2 e_F^2 - \frac{\kappa_\lambda}{\beta_1} (\lambda - \lambda^{*})^2 - \frac{\kappa_\alpha}{\beta_2} (\alpha - \alpha^{*})^2 + \theta_0 |\xi(t)|^2$$
+$$
+\dot{V}_{\text{Lyg}} \le -c_1 e_D^2 - c_2 e_F^2 - \frac{\kappa_\lambda}{\beta_1} (\lambda - \lambda^{\star})^2 - \frac{\kappa_\alpha}{\beta_2} (\alpha - \alpha^{\star})^2 + \theta_0 |\xi(t)|^2
+$$
 
 By LaSalle's Invariance Principle and Lyapunov direct method, the system satisfies **Input-to-State Stability (ISS)**. The state vector $\mathbf{x}(t)$ is guaranteed to remain strictly within a bounded phase space, preventing runaway inflation or economic depression.
 
