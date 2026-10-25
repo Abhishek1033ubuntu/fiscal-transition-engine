@@ -241,3 +241,10 @@ The theoretical design of the `fiscal-transition-engine` builds directly upon fo
 4. **Public Choice & Policy Shock Dynamics:**
 * Buchanan, J. M., & Tullock, G. (1962). *The Calculus of Consent: Logical Foundations of Constitutional Democracy*. University of Michigan Press.
 * Drazen, A. (2000). *Political Economy in Macroeconomics*. Princeton University Press.
+
+## License
+
+This project is licensed under the **Open Governance & Non-Discriminatory Execution License (v1.0)** — see the [LICENSE](LICENSE) file for full details.
+
+* **Principal Investigator:** Abhishek Singh
+* **AI Architecture & Co-Design:** Team Gemini (Google AI)
