@@ -1,3 +1,7 @@
+!pip install scipy numpy matplotlib
+!git clone https://github.com/Abhishek1033ubuntu/fiscal-transition-engine.git
+%cd fiscal-transition-engine
+
 import numpy as np
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
