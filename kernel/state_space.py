@@ -1,3 +1,8 @@
+# Copyright (c) 2026 Abhishek Singh | UIDAI: 9414 9122 9013
+# Co-Designed with Team Gemini (Google AI)
+# Licensed under Open Governance & Non-Discriminatory Execution License v1.0
+# Repository: https://github.com/Abhishek1033ubuntu/fiscal-transition-engine
+
 import numpy as np
 
 class MacroStateSpace:
