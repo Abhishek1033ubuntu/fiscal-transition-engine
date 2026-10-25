@@ -6,6 +6,8 @@
 [![Monte Carlo Passed](https://img.shields.io/badge/Monte_Carlo-N%3D200_Passed-success.svg)]()
 [![Firewall Status](https://img.shields.io/badge/ME--GMF_Firewall-Active_Bound-orange.svg)]()
 [![Co-Design](https://img.shields.io/badge/Co--Design-Team_Gemini_%26_Abhishek_Singh-purple.svg)]()
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Abhishek1033ubuntu/fiscal-transition-engine/blob/main/simulations/scipy_trajectory.ipynb)  
+
 
 **A Closed-Loop Adaptive Control System for Sovereign Fiscal Transition & Subsidy Phase-Out**
 
