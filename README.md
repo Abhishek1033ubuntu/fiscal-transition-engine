@@ -195,9 +195,15 @@ To prevent political hijacking or corporate cartel interference, the firewall en
 
 ```text
 fiscal-transition-engine/
-├── README.md                          # Comprehensive technical & mathematical specification
+├── README.md                          # Updated: Adds scenario execution guide & mitigation entrypoints
 ├── LICENSE                            # Open Governance & Non-Discriminatory Execution License
 ├── requirements.txt                   # Dependency manifest (scipy, numpy, matplotlib)
+├── setup.py                           # Package installer for editable CLI executions (`pip install -e .`)
+├── configs/                           # NEW: Scenario parameter presets for variable-based fiscal modeling
+│   ├── energy_shock.json              # High inflation & exogenous shock mitigation profile
+│   ├── high_debt_recovery.json        # Sovereign debt elimination & surplus generation profile
+│   ├── poverty_protection.json        # High price sensitivity & slew-clamped protection profile
+│   └── rapid_expansion.json           # Fast-track market transition & capital capture profile
 ├── kernel/
 │   ├── __init__.py
 │   ├── state_space.py                 # Non-linear ODE state-space solver routines
@@ -210,11 +216,12 @@ fiscal-transition-engine/
 ├── simulations/
 │   ├── scipy_trajectory.py            # Deterministic state-space numerical solver
 │   ├── monte_carlo_stress.py          # N=200 stochastic OU + Poisson jump stress testing
-│   └── sandbox_30day_dryrun.py        # 30-day regional dry-run telemetry generator
+│   ├── sandbox_30day_dryrun.py        # 30-day regional dry-run telemetry generator
+│   └── scenario_runner.py             # NEW: Dynamic CLI runner executing pre-configured fiscal scenarios
 └── docs/
     ├── mathematical_appendix.pdf      # Detailed Lyapunov proofs & stability bounds
-    └── team_gemini_collaboration.md   # Co-design logs & mitigation history
-
+    ├── team_gemini_collaboration.md   # Co-design logs & mitigation history
+    └── fiscal_mitigation_scenarios.md # NEW: Comprehensive report on government surplus & citizen protection timelines
 ```
 
 ---
