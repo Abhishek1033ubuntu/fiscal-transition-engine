@@ -1,0 +1,19 @@
+{
+  "scenario_name": "Poverty Protection & Slew-Clamped Price Adaptation",
+  "gamma": 0.3,
+  "D0": 100.0,
+  "P0": 10.0,
+  "P_unsubsidized": 15.0,
+  "epsilon_d": 0.8,
+  "F0": 5.0,
+  "Delta_S0": 5.0,
+  "alpha0": 0.001,
+  "lambda0": 0.02,
+  "lambda_max": 0.05,
+  "alpha_max": 0.01,
+  "slew_max": 0.002,
+  "shock_val": -5.0,
+  "shock_start": 20.0,
+  "shock_end": 40.0,
+  "t_max": 120
+}
