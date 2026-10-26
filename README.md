@@ -198,11 +198,11 @@ To prevent political hijacking or corporate cartel interference, the firewall en
 
 ```text
 fiscal-transition-engine/
-├── README.md                          # Updated: Adds scenario execution guide & mitigation entrypoints
+├── README.md                          # Updated: Reflects v1.1.2 structure, scenario suite & user guides
 ├── LICENSE                            # Open Governance & Non-Discriminatory Execution License
 ├── requirements.txt                   # Dependency manifest (scipy, numpy, matplotlib)
 ├── setup.py                           # Package installer for editable CLI executions (`pip install -e .`)
-├── configs/                           # NEW: Scenario parameter presets for variable-based fiscal modeling
+├── configs/                           # Pre-configured scenario parameter profiles
 │   ├── energy_shock.json              # High inflation & exogenous shock mitigation profile
 │   ├── high_debt_recovery.json        # Sovereign debt elimination & surplus generation profile
 │   ├── poverty_protection.json        # High price sensitivity & slew-clamped protection profile
@@ -217,14 +217,18 @@ fiscal-transition-engine/
 │   ├── bft_oracle_mesh.py             # Multi-node consensus simulator & outlier rejection
 │   └── regional_demographics.py       # Local D_critical calculation routines
 ├── simulations/
-│   ├── scipy_trajectory.py            # Deterministic state-space numerical solver
-│   ├── monte_carlo_stress.py          # N=200 stochastic OU + Poisson jump stress testing
-│   ├── sandbox_30day_dryrun.py        # 30-day regional dry-run telemetry generator
-│   └── scenario_runner.py             # NEW: Dynamic CLI runner executing pre-configured fiscal scenarios
+│   ├── __init__.py
+│   ├── scipy_trajectory.py            # Deterministic ODE solver with 6-panel trajectory plot output
+│   ├── scipy_trajectory.ipynb         # Interactive Jupyter/Colab notebook for inline trajectory plotting
+│   ├── monte_carlo_stress.py          # N=200 stochastic OU stress test with 95% confidence envelope plot
+│   ├── sandbox_30day_dryrun.py        # 30-day regional dry-run telemetry & firewall state dashboard
+│   └── scenario_runner.py             # Policy scenario runner executing pre-configured JSON profiles
 └── docs/
     ├── mathematical_appendix.pdf      # Detailed Lyapunov proofs & stability bounds
     ├── team_gemini_collaboration.md   # Co-design logs & mitigation history
-    └── fiscal_mitigation_scenarios.md # NEW: Comprehensive report on government surplus & citizen protection timelines
+    ├── fiscal_mitigation_scenarios.md # Comprehensive report on government surplus & citizen protection timelines
+    └── user_guide.md                  # Complete User & Developer Execution Guide across platforms
+
 ```
 
 ---
