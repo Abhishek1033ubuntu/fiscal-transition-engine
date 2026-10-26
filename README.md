@@ -258,3 +258,10 @@ This project is licensed under the **Open Governance & Non-Discriminatory Execut
 
 * **Principal Investigator:** Abhishek Singh | (UIDAI: 9414 9122 9013)
 * **AI Architecture & Co-Design:** Team Gemini (Google AI)
+
+## ⚡ Support
+
+| Platform | Link |
+| :--- | :--- |
+| **PayPal** | [![PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg?logo=paypal)](https://www.paypal.me/Abhishek1033ubuntu) |
+| **GitHub Sponsors** | [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa.svg?logo=github)](https://github.com/sponsors/Abhishek1033ubuntu) |
