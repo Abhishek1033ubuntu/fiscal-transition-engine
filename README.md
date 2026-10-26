@@ -7,7 +7,7 @@
 [![Firewall Status](https://img.shields.io/badge/ME--GMF_Firewall-Active_Bound-orange.svg)]()
 [![Co-Design](https://img.shields.io/badge/Co--Design-Team_Gemini_%26_Abhishek_Singh-purple.svg)]()
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Abhishek1033ubuntu/fiscal-transition-engine/blob/main/simulations/scipy_trajectory.ipynb) 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23648097-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.23648097) 
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23671305-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.23671305)  
 <!-- PayPal Donate Badge -->
 [![Donate PayPal](https://img.shields.io/badge/Donate-PayPal-00457C.svg?logo=paypal&logoColor=white)](https://www.paypal.me/abhishek1033ubuntu)  
 
