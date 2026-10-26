@@ -1,0 +1,19 @@
+{
+  "scenario_name": "Rapid Macro Expansion & Windfall Capture",
+  "gamma": 0.6,
+  "D0": 100.0,
+  "P0": 10.0,
+  "P_unsubsidized": 15.0,
+  "epsilon_d": 0.3,
+  "F0": 2.0,
+  "Delta_S0": 5.0,
+  "alpha0": 0.002,
+  "lambda0": 0.1,
+  "lambda_max": 0.3,
+  "alpha_max": 0.03,
+  "slew_max": 0.03,
+  "shock_val": 5.0,
+  "shock_start": 20.0,
+  "shock_end": 60.0,
+  "t_max": 80
+}
