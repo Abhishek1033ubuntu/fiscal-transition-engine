@@ -191,6 +191,9 @@ To prevent political hijacking or corporate cartel interference, the firewall en
 
 ---
 
+** [A complete user and developer execution guide](docs/user_guide.md)
+
+---
 ## 5. Repository Structure (`fiscal-transition-engine`)
 
 ```text
