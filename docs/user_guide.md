@@ -18,7 +18,11 @@ Welcome to the `fiscal-transition-engine`. This guide provides step-by-step inst
 
 ```
 
-3. Install dependencies:
+3. git clone [https://github.com/Abhishek1033ubuntu/fiscal-transition-engine.git](https://github.com/Abhishek1033ubuntu/fiscal-transition-engine.git)
+cd fiscal-transition-engine
+pip install -e .
+
+4 . Install dependencies:
 ```bash
 pip install -r requirements.txt
 
