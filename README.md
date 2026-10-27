@@ -267,6 +267,15 @@ The theoretical design of the `fiscal-transition-engine` builds directly upon fo
 * Buchanan, J. M., & Tullock, G. (1962). *The Calculus of Consent: Logical Foundations of Constitutional Democracy*. University of Michigan Press.
 * Drazen, A. (2000). *Political Economy in Macroeconomics*. Princeton University Press.
 
+---
+## Installation
+
+### Option 1: Standard PyPI Install (Recommended)
+```bash
+pip install fiscal-transition-engine
+```
+---
+
 ## License
 
 This project is licensed under the **Open Governance & Non-Discriminatory Execution License (v1.0)** — see the [LICENSE](LICENSE) file for full details.
